@@ -36,7 +36,6 @@ jobs:
           cd dumprx
           git config --global user.email "sunnyteja201@gmail.com"
           git config --global user.name "JaswantTeja"
-          echo "Jasxh-Dumps" > .github_orgname
           echo "${{ secrets.GIT_TOKEN }}" > .github_token
           echo "${{ secrets.TG_TOKEN }}" > .tg_token
           echo "${{ secrets.TG_CHAT }}" > .tg_chat
