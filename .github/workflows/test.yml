@@ -8,5 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Cleanup Space
+        uses: rokibhasansagar/slimhub_actions@main
+
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3
